@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.player {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.score-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.score-buttons div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.next {
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
